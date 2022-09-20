@@ -1,0 +1,190 @@
+body{
+    margin: 0%;
+}
+@font-face {
+    font-family: "gotham";
+    src: url(../tesla/fonts/Gotham-Font/GothamLight.ttf);
+}
+.head{
+    width: 100%;
+    height: 56px;
+    background: transparent;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.mainlogo{
+    
+    height: 56px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hedertext{
+    height: 56px;
+    width: 616px;
+    
+   margin-left: 205px
+}
+.headrtext2{
+    height: 56px;
+    width: 336px;
+    margin-left: 147px;
+
+
+
+}
+.hd1{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    margin-right: -21px
+}
+.hd1 a{
+    text-decoration: none;
+    color: var(--tds-nav-item--color);
+    font-family: "gotham";
+    font-weight: bolder;
+    font-size: 14px;
+}
+.hd2{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+    
+}
+.hd2 a{
+    text-decoration: none;
+    color: var(--tds-nav-item--color);
+    font-family: "gotham";
+    font-weight: bolder;
+    font-size: 14px;
+
+}
+.baground{
+    width: 100%;
+    height: auto;
+    
+}
+.img1{
+    width: 100%;
+    background: center;
+    height: 600px;
+    background-image: url(img/M3-Homepage-Desktop-LHD.jpg);
+    background-size: cover;
+}
+.img2{
+    width: 100%;
+    background: center;
+    height: 600px;
+    background-image: url(img/Desktop-ModelY.jpg);
+    background-size: cover;
+}.img3{
+    width: 100%;
+    background: center;
+    height: 600px;
+    background-image: url(img/Homepage-Model-S-Desktop-LHD.jpg);
+    background-size: cover;
+}.img4{
+    width: 100%;
+    background: center;
+    height: 600px;
+    background-image: url(img/Homepage-Model-X-Desktop-LHD.jpg);
+    background-size: cover;
+}.img5{
+    width: 100%;
+    background: center;
+    height: 600px;
+    background-image: url(img/_25-HP-SolarPanels-D.jpg);
+    background-size: cover;
+}.img6{
+    width: 100%;
+    background: center;
+    height: 600px;
+    background-image: url(img/Homepage-SolarRoof-Desktop-Global.webp);
+    background-size: cover;
+}.img7{
+    width: 100%;
+    background: center;
+    height: 600px;
+    background-image: url(img/dd739764-bcaa-4263-9488-8c73bc9fb046.jpg);
+    background-size: cover;
+}
+.modelname{
+    width: 300px;
+    height: 80px;
+    margin-left: 39%;
+    margin-top: 88px;
+    position: absolute;
+    text-align: center;
+}
+.model{
+    margin-bottom: -5px;
+    margin-top: 6px;
+    font-size: 40px;
+    font-weight: bolder
+
+}
+.modelname,p{
+    font-size: 14px;
+    font-family: "gotham";
+}
+.model,u{
+    cursor: pointer;
+}
+.button{
+    
+    width: 540px;
+    display: inline-table;
+    margin-left: 30%;
+    justify-content: center;
+    height: 39px;
+    position: absolute;
+    margin-top: 459px;
+    align-content: stretch;
+    align-items: baseline
+}
+button{
+    margin-left: 21px;
+    background: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px 72px;
+    border: none;
+}
+.b2{
+    background-color:rgba(244, 244, 244, 0.719);
+}
+.b1{
+    background-color: rgba(23, 26, 32, 0.719);
+    color:#fff;
+    font-family: "gotham";
+}
+.b3{
+    background-color: rgba(23, 26, 32, 0.719);
+    color:#fff;
+    font-family: "gotham";
+    margin-left: 145px;
+}
+.footer1{
+    width: 100%;
+    height: 70px;
+    
+}
+.footercontent{
+    display: flex;
+    justify-content: center;
+
+}
+li{
+    display: flex;
+    justify-content: center;
+    padding: 28px 13px;
+    font-family: "gotham";
+    color: rgb(98 97 112);
+    font-size: 12px;
+    font-weight: bolder;
+}    
